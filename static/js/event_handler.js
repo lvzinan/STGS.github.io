@@ -132,16 +132,16 @@ document.addEventListener('DOMContentLoaded', domReady);
                         image.src = 'static/results/building-';
                         break;
                     case 1:
-                        image.src = 'static/results/building-';
+                        image.src = 'static/results/rubble-';
                         break;
                     case 2:
                         image.src = 'static/results/residence-';
                         break;
                     case 3:
-                        image.src = 'static/results/building-';
+                        image.src = 'static/results/sci-';
                         break;
                     case 4:
-                        image.src = 'static/results/building-';
+                        image.src = 'static/results/sjtu-';
                         break;
                     case 5:
                         image.src = 'static/results/building-';
@@ -150,19 +150,19 @@ document.addEventListener('DOMContentLoaded', domReady);
                 if(idx<=5){
                     switch (i) {
                         case 0:
-                            image.src = image.src + 'switch.jpg';
+                            image.src = image.src + 'switch1.jpg';
                             break;
                         case 1:
-                            image.src = image.src + 'city.png';
+                            image.src = image.src + 'vast1.png';
                             break;
                         case 2:
-                            image.src = image.src + 'vast.png';
+                            image.src = image.src + 'city1.png';
                             break;
                         case 3:
-                            image.src = image.src + 'ours.png';
+                            image.src = image.src + 'ours1.png';
                             break;
                         case 4:
-                            image.src = image.src + 'gt.png';
+                            image.src = image.src + 'gt1.png';
                             break;
     
                     }
